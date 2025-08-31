@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Present Simple Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <!-- Header Section -->
+    <header class="text-center mb-10">
+        <h1 class="text-4xl md:text-5xl font-bold text-orange-500">English with Mixlass</h1>
+        <p class="text-xl md:text-2xl text-gray-700 mt-2">LEARN. SHARE. CONNECT</p>
+    </header>
+
+    <div class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-center">Грамматика: Present Simple (Practice)</h2>
+        <p class="text-lg text-gray-600 mb-8 text-center">Проверьте свои знания, выполнив следующие задания!</p>
+
+        <!-- Task 1: Put words in the correct order to make questions -->
+        <div id="task1" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4 text-orange-500">Задание 1: Составьте предложения из слов, чтобы получились вопросы.</h3>
+            <form id="quizForm1" class="space-y-4">
+                <div class="space-y-2">
+                    <p class="text-gray-700">1. you / do / classes / like / English / your / ?</p>
+                    <input type="text" id="q1_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result1_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">2. in / Mr / live / Brown / and / Mrs / New York / ? / Do</p>
+                    <input type="text" id="q2_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result2_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">3. Sonia / you / each / and / Do / know / other / ?</p>
+                    <input type="text" id="q3_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result3_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">4. to / go / same / your / Do / children / the / school / ?</p>
+                    <input type="text" id="q4_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result4_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">5. TV / of / watch / your / a / children / Do / lot / ?</p>
+                    <input type="text" id="q5_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result5_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">6. Ben / Jane / and / Are / married / ?</p>
+                    <input type="text" id="q6_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result6_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">7. here / come / you / near / Do / from / ?</p>
+                    <input type="text" id="q7_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result7_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">8. home / you / Do / at / English / speak / ?</p>
+                    <input type="text" id="q8_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result8_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Task 2: Correct the mistake -->
+        <div id="task2" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4 text-orange-500">Задание 2: Исправьте ошибки в каждом ответе.</h3>
+            <form id="quizForm2" class="space-y-4">
+                <div class="space-y-2">
+                    <p class="text-gray-700">1. Yes, I like do.</p>
+                    <input type="text" id="q1_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result1_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">2. No, they don't live.</p>
+                    <input type="text" id="q2_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result2_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">3. Yes, we know.</p>
+                    <input type="text" id="q3_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result3_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">4. No, we go to different schools.</p>
+                    <input type="text" id="q4_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result4_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">5. Yes, I do.</p>
+                    <input type="text" id="q5_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result5_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">6. No, they don't.</p>
+                    <input type="text" id="q6_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result6_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">7. Yes, I'm from Madrid.</p>
+                    <input type="text" id="q7_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result7_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">8. No, we aren't. We speak Japanese.</p>
+                    <input type="text" id="q8_task2" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result8_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Task 3: Write wh- questions -->
+        <div id="task3" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4 text-orange-500">Задание 3: Напишите wh-вопросы, используя глаголы в скобках.</h3>
+            <p class="text-gray-700 mb-4">На основе данных карточки студента</p>
+            <div class="relative w-full max-w-xs mx-auto mb-6 bg-green-500 text-white rounded-lg shadow-xl p-4 md:p-6">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="font-bold text-sm md:text-base tracking-wide">STUDENT CARD</span>
+                    </div>
+                </div>
+                <div class="mt-4 text-sm md:text-base space-y-2">
+                    <div class="flex">
+                        <span class="w-1/3 text-gray-200">NAME:</span>
+                        <span class="w-2/3 font-medium">Martina Fernandez</span>
+                    </div>
+                    <div class="flex">
+                        <span class="w-1/3 text-gray-200">COUNTRY:</span>
+                        <span class="w-2/3 font-medium">Argentina</span>
+                    </div>
+                    <div class="flex">
+                        <span class="w-1/3 text-gray-200">CLASS:</span>
+                        <span class="w-2/3 font-medium">English</span>
+                    </div>
+                    <div class="flex">
+                        <span class="w-1/3 text-gray-200">TIME:</span>
+                        <span class="w-2/3 font-medium">9-12 Mon-Fri</span>
+                    </div>
+                    <div class="flex">
+                        <span class="w-1/3 text-gray-200">TEACHER:</span>
+                        <span class="w-2/3 font-medium">Michael</span>
+                    </div>
+                </div>
+            </div>
+            <form id="quizForm3" class="space-y-4">
+                <div class="space-y-2">
+                    <p class="text-gray-700">1. Is your name Martina? (be)</p>
+                    <input type="text" id="q1_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result1_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">2. _____ _____ _____ _____ _____? (spell)</p>
+                    <input type="text" id="q2_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result2_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">3. _____ _____ _____ _____? (live)</p>
+                    <input type="text" id="q3_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result3_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">4. _____ _____ _____ _____? (do)</p>
+                    <input type="text" id="q4_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result4_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">5. _____ _____ _____ _____? (work)</p>
+                    <input type="text" id="q5_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result5_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">6. _____ _____ _____ _____ _____? (come)</p>
+                    <input type="text" id="q6_task3" class="border rounded-md p-2 w-full mt-1" placeholder="Ваш ответ">
+                    <span id="result6_task3" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-center space-x-4">
+            <button onclick="checkAnswers()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-md shadow-md transition duration-300">Проверить</button>
+            <button onclick="resetAnswers()" class="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-6 rounded-md shadow-md transition duration-300">Сбросить</button>
+        </div>
+    </div>
+
+    <!-- Explanation Section -->
+    <div id="explanations" class="max-w-4xl mx-auto mt-8 p-6 md:p-10 bg-white rounded-xl shadow-lg hidden">
+        <h3 class="text-2xl font-bold mb-4 text-orange-500">Объяснения</h3>
+        <p class="mb-4">
+            Здесь вы найдёте объяснения к тем заданиям, где были допущены ошибки.
+        </p>
+        <p id="explanationText" class="text-gray-700"></p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-center mt-10">
+        <p class="text-lg md:text-xl text-gray-700">LEARN. SHARE. CONNECT</p>
+    </footer>
+
+    <script>
+        function checkAnswers() {
+            // Define correct answers with multiple variations
+            const answers = {
+                task1: {
+                    q1: { options: ["do you like your english classes?", "do you like your english classes"], display: "Do you like your English classes?" },
+                    q2: { options: ["do mr and mrs brown live in new york?", "do mr and mrs brown live in new york"], display: "Do Mr and Mrs Brown live in New York?" },
+                    q3: { options: ["do you and sonia know each other?", "do you and sonia know each other"], display: "Do you and Sonia know each other?" },
+                    q4: { options: ["do your children go to the same school?", "do your children go to the same school"], display: "Do your children go to the same school?" },
+                    q5: { options: ["do your children watch a lot of tv?", "do your children watch a lot of tv"], display: "Do your children watch a lot of TV?" },
+                    q6: { options: ["are ben and jane married?", "are ben and jane married"], display: "Are Ben and Jane married?" },
+                    q7: { options: ["do you come from near here?", "do you come from near here"], display: "Do you come from near here?" },
+                    q8: { options: ["do you speak english at home?", "do you speak english at home"], display: "Do you speak English at home?" }
+                },
+                task2: {
+                    q1: { options: ["yes, i do.", "yes i do"], display: "Yes, I do." },
+                    q2: { options: ["no, they don't.", "no they don't", "no they do not"], display: "No, they don't. / No, they do not." },
+                    q3: { options: ["yes, we do.", "yes we do"], display: "Yes, we do." },
+                    q4: { options: ["no, we don't.", "no we don't", "no we do not"], display: "No, we don't. / No, we do not." },
+                    q5: { options: ["yes, i like to.", "yes i like to"], display: "Yes, I like to." },
+                    q6: { options: ["no, they don't.", "no they don't", "no they do not"], display: "No, they don't. / No, they do not." },
+                    q7: { options: ["yes, i am.", "yes i am", "yes i'm"], display: "Yes, I am. / Yes, I'm." },
+                    q8: { options: ["no, we aren't.", "no we aren't", "no we are not"], display: "No, we aren't. / No, we are not." }
+                },
+                task3: {
+                    q1: { options: ["is your name martina?", "is your name martina"], display: "Is your name Martina?" },
+                    q2: { options: ["how do you spell it?", "how do you spell it"], display: "How do you spell it?" },
+                    q3: { options: ["where do you live?", "where do you live"], display: "Where do you live?" },
+                    q4: { options: ["what do you do?", "what do you do"], display: "What do you do?" },
+                    q5: { options: ["where do you work?", "where do you work"], display: "Where do you work?" },
+                    q6: { options: ["where do you come from?", "where do you come from"], display: "Where do you come from?" }
+                }
+            };
+
+            let allCorrect = true;
+            let wrongAnswers = [];
+
+            // A more robust way to check answers
+            const checkTask = (taskName) => {
+                const form = document.getElementById(`quizForm${taskName.slice(-1)}`);
+                if (!form) return;
+                const inputs = form.querySelectorAll('input');
+
+                inputs.forEach(input => {
+                    const qId = input.id;
+                    const qNum = qId.split('_')[0];
+                    const resultId = `result${qId.split('_')[0].slice(1)}_${qId.split('_')[1]}`;
+                    const resultSpan = document.getElementById(resultId);
+                    
+                    const answerData = answers[taskName][qNum];
+
+                    if (!answerData) return;
+
+                    const sanitizedInput = input.value.toLowerCase().trim().replace(/['`’‘?.]/g, '');
+                    const sanitizedOptions = answerData.options.map(opt => opt.toLowerCase().trim().replace(/['`’‘?.]/g, ''));
+
+                    if (sanitizedOptions.includes(sanitizedInput)) {
+                        resultSpan.textContent = '✅';
+                        resultSpan.style.color = 'green';
+                    } else {
+                        resultSpan.textContent = `❌ (Правильный ответ: ${answerData.display})`;
+                        resultSpan.style.color = 'red';
+                        allCorrect = false;
+                        const originalQuestionText = input.parentElement.querySelector('p').textContent;
+                        wrongAnswers.push({
+                            question: originalQuestionText,
+                            correctAnswer: answerData.display
+                        });
+                    }
+                });
+            };
+
+            checkTask('task1');
+            checkTask('task2');
+            checkTask('task3');
+
+            // Show explanations if there are mistakes
+            const explanationsDiv = document.getElementById('explanations');
+            const explanationText = document.getElementById('explanationText');
+
+            if (allCorrect) {
+                explanationsDiv.classList.add('hidden');
+            } else {
+                explanationsDiv.classList.remove('hidden');
+                let text = "Вы допустили ошибки в следующих заданиях:\n\n";
+                wrongAnswers.forEach(item => {
+                    text += `→ Задание: "${item.question}"\n`;
+                    text += `   Правильный ответ: ${item.correctAnswer}\n\n`;
+                });
+                explanationText.textContent = text;
+            }
+        }
+
+        function resetAnswers() {
+            // Clear all input fields and spans
+            const inputs = document.querySelectorAll('input, select');
+            inputs.forEach(input => input.value = '');
+            const spans = document.querySelectorAll('span[id^="result"]');
+            spans.forEach(span => {
+                span.textContent = '';
+                span.style.color = '';
+            });
+
+            // Hide explanations
+            document.getElementById('explanations').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
